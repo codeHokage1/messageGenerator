@@ -1,3 +1,6 @@
+const paragraph = document.getElementById('quote');
+const authorLine = document.getElementById('author');
+const button = document.getElementById('messageButton');
 const quotes = [
     ["Looking for the meaning of life, one man can discover the order of the universe. To discover the truth, to achieve. A higher spiritual state that is the true meaning of ninja", "Masaaki Hatsumi"],
     ["A Ninja doesn't save himself. He protects those who cannot protect themselves", "Cole Brookstone"],
@@ -15,7 +18,8 @@ const randomMessage = () => {
     let num = Math.floor(Math.random() * 10);
     let message = quotes[num][0];
     let author = quotes[num][1];
-    console.log(`${message} \n................. ${author}`);
+    paragraph.innerHTML = message;
+    authorLine.innerHTML = author;
 }
 
-randomMessage();
+button.onclick = randomMessage;
