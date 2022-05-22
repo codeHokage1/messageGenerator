@@ -33,7 +33,7 @@ section{
     background-color: whitesmoke;
     text-align: center;
     padding: 30px;
-    height: 420px;
+    height: 430px;
 }
 h2{
     font-family: 'Changa', sans-serif;
@@ -88,9 +88,8 @@ button{
     padding: 10px;
 }
 footer{
-    text-align: center;
     position: absolute;
-    padding: 3px 0;
+    padding: 10px 0;
     bottom: 0;
     width: 100%;
     background-color: #2F3020;
@@ -99,7 +98,6 @@ footer{
 }
 footer img{
     width: 30px;
-    margin-right: 20px;
 }
 footer img:hover{
     border: #CDCBD6 solid;
@@ -107,6 +105,24 @@ footer img:hover{
     border-width: 2px;
     padding: 3px;
 }
-footer a{
-    color: #CDCBD6;
+#brand1{
+    font-size: 20px;
+}
+#brand2{
+    font-size: 14px;
+}
+#github{
+    margin-right: 20px;
+}
+.brand{
+    margin-left: 30px;
+}
+.logos{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.brand, .logos{
+    display: inline-block;
 }
