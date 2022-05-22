@@ -114,15 +114,15 @@ footer img:hover{
 #github{
     margin-right: 20px;
 }
-.brand{
+#brand{
     margin-left: 50px;
 }
-.logos{
+#logos{
     position: relative;
     float: right;
     margin-right: 50px;
     margin-top: 5px;
 }
-.brand, .logos{
+#brand, #logos{
     display: inline-block;
 }
